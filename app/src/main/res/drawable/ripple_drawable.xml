@@ -1,0 +1,8 @@
+<!-- res/drawable/ripple_background.xml -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/pink"> <!-- Warna ripple yang muncul saat ditekan -->
+
+    <!-- Set background ketika ripple aktif -->
+    <item android:drawable="@color/white" /> <!-- Warna background default -->
+
+</ripple>

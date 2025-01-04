@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tanda centang, hanya muncul ketika dipilih -->
+    <item android:drawable="@drawable/baseline_check_24" android:left="8dp" android:right="8dp" android:top="8dp" android:bottom="8dp" android:state_checked="true"/>
+
+    <!-- Lingkaran dengan warna saat dipilih -->
+    <item>
+        <shape>
+            <solid android:color="#56E0A0"/> <!-- Warna lingkaran saat dipilih -->
+            <size android:width="48dp" android:height="48dp"/>
+            <corners android:radius="24dp"/> <!-- Membuat lingkaran -->
+        </shape>
+    </item>
+</layer-list>
